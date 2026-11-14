@@ -1,0 +1,2 @@
+Synthetischer Kraken-Server fuer SINUSEUR (C1_echtzeit_cli) auf http://127.0.0.1:8765
+Modell: 100 + 1.4*sin(2*pi*40/Tag*t) + weisses Rauschen sigma=0.2 EUR

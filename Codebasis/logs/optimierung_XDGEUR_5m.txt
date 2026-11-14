@@ -1,0 +1,15 @@
+X-Optimierung fuer XDGEUR
+========================================
+Gewaehltes X (nach Glaettung):      0.6700 %
+Gebuehren-Breakeven (untere Grenze): 0.6700 %
+Mittlerer Out-of-Sample-Score:       0.0000 EUR
+Mittlere Round-Trips je Fenster:     0.00
+Mittlere Amplitude je Round-Trip:    0.0000 %
+Anzahl ausgewerteter Fenster:         5
+
+Pro Fenster gewaehltes X (Training) vs. Out-of-Sample-Ergebnis:
+  Fenster 0: X=1.0663 % | Netto +0.00 EUR | Drawdown 0.00 % | Round-Trips 0
+  Fenster 1: X=4.0884 % | Netto +0.00 EUR | Drawdown 0.00 % | Round-Trips 0
+  Fenster 2: X=0.6700 % | Netto +0.00 EUR | Drawdown 0.00 % | Round-Trips 0
+  Fenster 3: X=0.6700 % | Netto +0.00 EUR | Drawdown 0.00 % | Round-Trips 0
+  Fenster 4: X=0.6700 % | Netto +0.00 EUR | Drawdown 0.00 % | Round-Trips 0

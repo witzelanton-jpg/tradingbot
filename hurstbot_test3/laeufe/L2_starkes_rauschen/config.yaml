@@ -1,0 +1,224 @@
+# ===================================================================
+# hurstbot_test3 - Basis-Konfiguration fuer den Test mit idealisierten Daten
+# ===================================================================
+# Kopie von Codebasis/config.example.yaml. Geaendert sind NUR:
+#   - scanner.watchlist: das synthetische Paar SINUSEUR
+#   - kraken_api.basis_url: lokaler synthetischer Server statt api.kraken.com
+#     (damit kann kein Testlauf versehentlich die echte API ansprechen)
+# Der Generator (synth/generator.py) kopiert diese Datei in jeden
+# Szenario-Ordner und setzt dort ggf. abfrage_sekunden und den Port.
+# Die Pfade data/logs/state sind relativ zum Szenario-Ordner.
+# ===================================================================
+# ===================================================================
+# Konfiguration des Hurst-basierten Grid-Trading-Bots
+# ===================================================================
+# Kopiere diese Datei nach "config.yaml" und passe die Werte an.
+# Alle Zeiten in Minuten/Stunden/Sekunden wie jeweils angegeben.
+#
+# Aufruf:  hurstbot --config config.yaml run
+# ===================================================================
+
+# Virtuelles bzw. maximal eingesetztes Startkapital in EUR.
+# Dient auch als Bezugsgroesse fuer Exposure-Limit und Kill-Switch.
+start_kapital_eur: 100.0
+
+# Wartezeit zwischen zwei Handelszyklen in Sekunden.
+abfrage_sekunden: 600   # gesetzt vom Generator (Szenario)
+
+# -------------------------------------------------------------------
+# Hurst-Exponent (Abschnitt 2.1): robuste Schaetzung
+# -------------------------------------------------------------------
+hurst:
+  # Lag-Bereich fuer den Lag-Std-Schaetzer.
+  min_lag: 2
+  max_lag: 20
+
+  # Welche Schaetzer kombiniert werden. Moeglich: lag_std, rs, dfa.
+  # Mindestens zwei werden empfohlen; "dfa" ist genauer, aber langsamer.
+  schaetzer:
+    - lag_std
+    - rs
+
+  # Wie die Einzelschaetzer zusammengefasst werden: median oder mittelwert.
+  # "median" ist robuster gegen einen einzelnen Ausreisser-Schaetzer.
+  kombination: median
+
+  # Block-Bootstrap fuer das Konfidenzintervall.
+  # Mehr Wiederholungen = stabileres Intervall, aber langsamer.
+  bootstrap_wiederholungen: 500
+  bootstrap_blockgroesse: 20
+  konfidenzniveau: 0.90
+
+  # Mehrskalen-Analyse. Kraken liefert max. 720 Kerzen pro Abfrage.
+  multiskalen:
+    kurz_intervall_minuten: 5       # Hauptintervall
+    kurz_anzahl_kerzen: 720         # ca. 60 h
+    mittel_intervall_minuten: 60
+    mittel_anzahl_kerzen: 720       # ca. 30 Tage
+    lang_intervall_minuten: 1440    # Tageskerzen
+    lang_anzahl_kerzen: 365         # soweit verfuegbar
+
+# -------------------------------------------------------------------
+# Handels-Gate mit Hysterese (Abschnitt 2.2)
+# -------------------------------------------------------------------
+# Handel beginnt erst unter h_start und endet wieder ab h_stop.
+# Dazwischen bleibt der laufende Zustand erhalten (kein Flackern).
+# WICHTIG: Bei H >= 0.5 (oder oberer Konfidenzgrenze >= 0.5) wird
+# unabhaengig von diesen Werten NIE gehandelt.
+gate:
+  h_start: 0.45
+  h_stop: 0.50
+
+# -------------------------------------------------------------------
+# Betrag Y pro Kauf (Abschnitt 2.3)
+# -------------------------------------------------------------------
+# Y = y_min + (y_max - y_min) * f(Score, Konfidenz).
+# Unsicheres oder nur knapp niedriges H haelt Y nahe y_min.
+y:
+  y_min_eur: 5.0
+  y_max_eur: 50.0
+
+# -------------------------------------------------------------------
+# Gebuehren und Spread
+# -------------------------------------------------------------------
+# Kraken-Standardgebuehren (Stand der Erstellung). Pruefe deine
+# tatsaechliche Gebuehrenstufe im Kraken-Konto und passe sie an -
+# zu niedrig angesetzte Gebuehren machen den Backtest zu optimistisch.
+gebuehren:
+  maker_gebuehr_prozent: 0.16
+  taker_gebuehr_prozent: 0.26
+  geschaetzter_spread_prozent: 0.05
+  sicherheitspuffer_prozent: 0.10
+
+# -------------------------------------------------------------------
+# X-Optimierung per Walk-Forward-Backtest (Abschnitt 2.4)
+# -------------------------------------------------------------------
+optimizer:
+  # Suchbereich fuer X in Prozent. Die untere Grenze wird automatisch
+  # auf den Gebuehren-Break-even angehoben (2 x Gebuehr + Spread + Puffer),
+  # selbst wenn hier ein kleinerer Wert steht.
+  x_grid_min_prozent: 0.2
+  x_grid_max_prozent: 5.0
+  x_grid_schritte: 20
+  verfeinerung_schritte: 10
+
+  # Optionale Bayes'sche Verfeinerung. Benoetigt: pip install optuna
+  mit_optuna: false
+  optuna_versuche: 30
+
+  # Wie oft X im laufenden Betrieb neu optimiert wird (Stunden).
+  neuoptimierung_stunden: 6.0
+
+  # Glaettung: 0.0 = X aendert sich nie, 1.0 = X springt sofort auf den
+  # neuen Wert. Niedrige Werte verhindern, dass der Bot sein Raster
+  # bei jedem Durchlauf verschiebt.
+  glaettung_alpha: 0.3
+
+  # Walk-Forward: Anzahl rollierender Fenster und Anteil des Testteils
+  # pro Fenster (0.3 = 70 % Training, 30 % Out-of-Sample-Test).
+  walk_forward_fenster_anzahl: 5
+  walk_forward_test_anteil: 0.3
+
+  # Strafterme der Zielfunktion.
+  max_drawdown_strafe: 1.0
+  haltedauer_strafe_pro_stunde: 0.0005
+
+# -------------------------------------------------------------------
+# Paarspezifische Zeitskala (Abschnitt 2.5)
+# -------------------------------------------------------------------
+zeitskala_auswahl:
+  # Feste Kandidatenliste. Jeder Kandidat = Kerzenlaenge + Hurst-Fenster.
+  kandidaten:
+    - name: 5m
+      intervall_minuten: 5
+      hurst_fenster: 200
+    - name: 15m
+      intervall_minuten: 15
+      hurst_fenster: 200
+    - name: 1h
+      intervall_minuten: 60
+      hurst_fenster: 200
+
+  # Hoechstens so oft wird das Profil neu bewertet (Stunden).
+  neubewertung_stunden: 24.0
+
+  # Gewechselt wird nur, wenn der Kandidat den Out-of-Sample-Nettogewinn
+  # um mindestens diesen Prozentsatz uebertrifft.
+  wechsel_vorteil_prozent: 20.0
+
+  # Mindestanzahl Round-Trips, damit ein Kandidat ueberhaupt zaehlt.
+  mindest_roundtrips: 3
+
+  # Profil, auf das zurueckgefallen wird, wenn kein Kandidat taugt.
+  fallback_profil: 5m
+
+  # Optional: Kandidaten anhand der geschaetzten dominanten Zyklusdauer
+  # vorschlagen. Die Auswahl bleibt in jedem Fall validierungsbasiert.
+  dominante_zyklusdauer_vorschlag: false
+
+# -------------------------------------------------------------------
+# Schutzmechanismen (Abschnitt 3)
+# -------------------------------------------------------------------
+
+# 3.1 Exposure-Limit: ab diesem Anteil des Gesamtkapitals in einem Paar
+# werden keine weiteren Kaeufe ausgefuehrt. Verkaeufe bleiben erlaubt.
+exposure:
+  max_exposure_prozent: 40.0
+
+# 3.2 Trend-/Ausbruchswaechter
+ausbruch:
+  atr_periode: 14
+  ausbruch_faktor_atr: 3.0          # Abweichung vom Anker in ATR-Vielfachen
+  ausbruch_prozent: 3.0             # ODER: Abweichung in Prozent
+  ausbruch_zeitfenster_kerzen: 12   # Fenster fuer die Einzelkerzen-Pruefung
+  extrem_sigma_faktor: 6.0          # Einzelkerze > k x robuste (MAD-)Sigma
+
+# 3.3 Wiedereinstieg nach einer Pause
+wiedereinstieg:
+  toleranzband_prozent: 1.0         # Rueckkehr in dieses Band um den Anker
+  neuanker_aktiv: true              # Fallback erlauben (false = nur Rueckkehr)
+  neuanker_kerzen: 12               # so viele stabile Kerzen fuer einen Neuanker
+  neuanker_timeout_stunden: 48.0    # danach deutliche Warnung im Log
+
+# 3.4 Hurst-Waechter
+hurst_waechter:
+  # Optional: bei steigendem H den Bestand aktiv abbauen.
+  # Default aus - offene Lots bleiben unberuehrt und warten auf ihren Zielpreis.
+  bestand_abbauen: false
+
+# 3.5 Kill-Switch: faellt der Gesamtwert um mehr als diesen Prozentsatz
+# unter das Startkapital, stoppt der gesamte Bot.
+kill_switch:
+  max_verlust_prozent: 10.0
+
+# -------------------------------------------------------------------
+# Scanner / Watchlist (Abschnitt 4)
+# -------------------------------------------------------------------
+scanner:
+  watchlist:
+    - SINUSEUR      # synthetisches Paar (hurstbot_test3)
+
+  # Hoechstens so viele Paare werden gleichzeitig gehandelt.
+  # Jeder Zyklus bewertet alle Paare neu; getaktet wird ueber abfrage_sekunden (oben).
+  max_parallele_paare: 2
+
+# -------------------------------------------------------------------
+# Kraken-API
+# -------------------------------------------------------------------
+kraken_api:
+  basis_url: http://127.0.0.1:8765   # synthetischer Kraken-Server (hurstbot_test3)
+  api_version: "0"
+  timeout_sekunden: 15.0
+  max_wiederholungen: 5
+  backoff_basis_sekunden: 1.0
+  # Konservatives Rate-Limit. Kraken drosselt bei zu vielen Anfragen -
+  # dieser Wert gilt fuer alle Endpunkte gemeinsam.
+  anfragen_pro_sekunde: 1.0
+
+# -------------------------------------------------------------------
+# Verzeichnisse
+# -------------------------------------------------------------------
+pfade:
+  daten_verzeichnis: data      # OHLC-Cache
+  log_verzeichnis: logs        # Trade-Log (CSV), Zustands-Log (JSONL), Berichte
+  zustand_verzeichnis: state   # Portfolio-Zustand (JSON)

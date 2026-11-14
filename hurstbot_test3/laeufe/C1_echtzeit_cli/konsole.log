@@ -1,0 +1,26 @@
+08:35:33 [INFO] hurstbot.cli: Paper-Modus: virtuelle Ausfuehrung, keine echten Orders.
+08:35:33 [INFO] hurstbot.scanner: Handelsregeln fuer 1 Paare geladen: SINUSEUR
+08:35:33 [INFO] hurstbot.runner: Kein gueltiger Zustand gefunden - starte frisch mit 100.00 EUR
+08:35:33 [INFO] hurstbot.cli: Bot gestartet. Beenden mit Strg + C.
+08:37:29 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.235    0.274     0.115     0.87     JA  H=0.274 < H_START=0.45
+08:37:33 [INFO] hurstbot.runner: X fuer SINUSEUR aktualisiert: 1.3400 % -> 1.4843 % (Out-of-Sample-Score 3.80 EUR, 4.6 Round-Trips)
+08:37:47 [WARNING] hurstbot.runner: Zeitskala-Wechsel fuer SINUSEUR: 5m -> 15m. Grund: Bestes Out-of-Sample-Nettogewinn-Ergebnis unter Kandidaten mit >= 3 Round-Trips (Score=13.43 EUR). Offene Lots (0) bleiben erhalten.
+08:40:37 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.234    0.274     0.115     0.87     JA  H=0.274 < H_START=0.45
+08:43:24 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.229    0.275     0.115     0.86     JA  H=0.275 < H_START=0.45
+08:46:14 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.232    0.275     0.115     0.87     JA  H=0.275 < H_START=0.45
+08:49:02 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.230    0.276     0.115     0.86     JA  H=0.276 < H_START=0.45

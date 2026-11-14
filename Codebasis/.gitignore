@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Geheimnisse
+.env
+
+# Persoenliche Konfiguration (config.example.yaml ist die versionierte Vorlage)
+config.yaml
+
+# Laufzeitdaten (lokal, nicht versionieren)
+data/*.parquet
+data/*.csv
+logs/*.csv
+logs/*.log
+logs/*.jsonl
+state/*.json
+
+!data/.gitkeep
+!logs/.gitkeep
+!state/.gitkeep

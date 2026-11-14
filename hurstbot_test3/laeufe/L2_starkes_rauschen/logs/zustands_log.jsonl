@@ -1,0 +1,18 @@
+{"zeitpunkt": "2026-11-05T01:30:00+00:00", "paar": "SINUSEUR", "alter_zustand": "HANDELT", "neuer_zustand": "PAUSIERT", "grund": "Ausbruchswaechter: Abweichung vom Anker 3.07% >= 3.0%"}
+{"zeitpunkt": "2026-11-05T01:50:00+00:00", "paar": "SINUSEUR", "alter_zustand": "PAUSIERT", "neuer_zustand": "HANDELT", "grund": "Wiedereinstieg: Kurs zurueck im urspruenglichen Toleranzband"}
+{"zeitpunkt": "2026-11-05T05:10:00+00:00", "paar": "SINUSEUR", "alter_zustand": "HANDELT", "neuer_zustand": "PAUSIERT", "grund": "Ausbruchswaechter: Einzelkerzen-Ausschlag -3.75% >= 6.0x robuste Sigma (0.528%)"}
+{"zeitpunkt": "2026-11-05T05:30:00+00:00", "paar": "SINUSEUR", "alter_zustand": "PAUSIERT", "neuer_zustand": "HANDELT", "grund": "Wiedereinstieg: Kurs zurueck im urspruenglichen Toleranzband"}
+{"zeitpunkt": "2026-11-05T07:10:00+00:00", "paar": "SINUSEUR", "alter_zustand": "HANDELT", "neuer_zustand": "PAUSIERT", "grund": "Ausbruchswaechter: Abweichung vom Anker 3.04% >= 3.0%"}
+{"zeitpunkt": "2026-11-05T08:10:00+00:00", "paar": "SINUSEUR", "alter_zustand": "PAUSIERT", "neuer_zustand": "HANDELT", "grund": "Wiedereinstieg: Kurs zurueck im urspruenglichen Toleranzband"}
+{"zeitpunkt": "2026-11-05T09:30:00+00:00", "paar": "SINUSEUR", "alter_zustand": "HANDELT", "neuer_zustand": "NUR_VERKAUFEN", "grund": "H=0.289 < H_START=0.45"}
+{"zeitpunkt": "2026-11-05T09:40:00+00:00", "paar": "SINUSEUR", "alter_zustand": "NUR_VERKAUFEN", "neuer_zustand": "HANDELT", "grund": "Gate bestanden"}
+{"zeitpunkt": "2026-11-05T10:10:00+00:00", "paar": "SINUSEUR", "alter_zustand": "HANDELT", "neuer_zustand": "NUR_VERKAUFEN", "grund": "H=0.282 < H_START=0.45"}
+{"zeitpunkt": "2026-11-05T10:30:00+00:00", "paar": "SINUSEUR", "alter_zustand": "NUR_VERKAUFEN", "neuer_zustand": "HANDELT", "grund": "Gate bestanden"}
+{"zeitpunkt": "2026-11-05T10:40:00+00:00", "paar": "SINUSEUR", "alter_zustand": "HANDELT", "neuer_zustand": "NUR_VERKAUFEN", "grund": "H=0.282 < H_START=0.45"}
+{"zeitpunkt": "2026-11-05T11:00:00+00:00", "paar": "SINUSEUR", "alter_zustand": "NUR_VERKAUFEN", "neuer_zustand": "HANDELT", "grund": "Gate bestanden"}
+{"zeitpunkt": "2026-11-05T11:20:00+00:00", "paar": "SINUSEUR", "alter_zustand": "HANDELT", "neuer_zustand": "PAUSIERT", "grund": "Ausbruchswaechter: Abweichung vom Anker 3.48% >= 3.0%"}
+{"zeitpunkt": "2026-11-05T11:30:00+00:00", "paar": "SINUSEUR", "alter_zustand": "PAUSIERT", "neuer_zustand": "HANDELT", "grund": "Wiedereinstieg: Kurs zurueck im urspruenglichen Toleranzband"}
+{"zeitpunkt": "2026-11-05T18:00:00+00:00", "paar": "SINUSEUR", "alter_zustand": "HANDELT", "neuer_zustand": "PAUSIERT", "grund": "Ausbruchswaechter: Abweichung vom Anker 3.90% >= 3.0%"}
+{"zeitpunkt": "2026-11-05T19:00:00+00:00", "paar": "SINUSEUR", "alter_zustand": "PAUSIERT", "neuer_zustand": "HANDELT", "grund": "Wiedereinstieg: Kurs zurueck im urspruenglichen Toleranzband"}
+{"zeitpunkt": "2026-11-05T21:20:00+00:00", "paar": "SINUSEUR", "alter_zustand": "HANDELT", "neuer_zustand": "PAUSIERT", "grund": "Ausbruchswaechter: Abweichung vom Anker 3.03% >= 3.0%"}
+{"zeitpunkt": "2026-11-05T21:50:00+00:00", "paar": "SINUSEUR", "alter_zustand": "PAUSIERT", "neuer_zustand": "HANDELT", "grund": "Wiedereinstieg: Kurs zurueck im urspruenglichen Toleranzband"}

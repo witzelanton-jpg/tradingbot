@@ -1,0 +1,588 @@
+[
+  {
+    "szenario": "F0_rein",
+    "beschreibung": "Referenz: reiner Sinus, keine Stoerung",
+    "periode_min": 36.0,
+    "amplitude_eur": 1.4,
+    "stoerungen": "keine",
+    "zyklen": 60,
+    "sim_von": "2026-11-05 00:00:00+00:00",
+    "sim_bis": "2026-11-05 01:58:00+00:00",
+    "rechenzeit_s": 85295.0,
+    "gate_offen_anteil": 1.0,
+    "aktiv_anteil": 1.0,
+    "h_kurz_median": 0.2769,
+    "h_mittel_median": 0.0973,
+    "ci_kurz_oben_median": 0.3914,
+    "ci_mittel_oben_median": 0.24,
+    "kaeufe": 0,
+    "verkaeufe": 0,
+    "realisiert_eur": 0.0,
+    "gebuehren_eur": 0.0,
+    "abgebrochen": false,
+    "offene_lots": 0,
+    "unrealisiert_eur": 0,
+    "endwert_markt_eur": 100.0,
+    "netto_markt_eur": 0.0,
+    "endwert_buch_eur": 100.0,
+    "max_drawdown_markt_prozent": 0.0,
+    "tiefster_marktwert_eur": 100.0,
+    "x_verlauf": [
+      1.5314
+    ],
+    "profile": [
+      "1h"
+    ],
+    "zustandswechsel": {},
+    "pausen_gruende": {},
+    "global_zustand": "HANDELT",
+    "kurs_start": 100.0,
+    "kurs_ende": 101.37873,
+    "cache_5m": {
+      "kerzen_verglichen": 23,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 0.5519226086956541,
+      "spanne_cache_zu_wahr": 0.12182813803522659
+    },
+    "cache_60m": {
+      "kerzen_verglichen": 1,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 1.0724600000000066,
+      "spanne_cache_zu_wahr": 0.0
+    }
+  },
+  {
+    "szenario": "F1_weiss",
+    "beschreibung": "Ideal: Sinus + leichtes weisses Rauschen",
+    "periode_min": 36.0,
+    "amplitude_eur": 1.4,
+    "stoerungen": "weiss 0.2",
+    "zyklen": 140,
+    "sim_von": "2026-11-05 00:00:00+00:00",
+    "sim_bis": "2026-11-05 04:38:00+00:00",
+    "rechenzeit_s": null,
+    "gate_offen_anteil": 1.0,
+    "aktiv_anteil": 1.0,
+    "h_kurz_median": 0.272,
+    "h_mittel_median": 0.1165,
+    "ci_kurz_oben_median": 0.3878,
+    "ci_mittel_oben_median": 0.2487,
+    "kaeufe": 8,
+    "verkaeufe": 7,
+    "realisiert_eur": 1.3938,
+    "gebuehren_eur": 0.5641,
+    "abgebrochen": true,
+    "offene_lots": 1,
+    "unrealisiert_eur": -0.1865,
+    "endwert_markt_eur": 101.1698,
+    "netto_markt_eur": 1.1698,
+    "endwert_buch_eur": 101.3563,
+    "max_drawdown_markt_prozent": 0.221,
+    "tiefster_marktwert_eur": 99.9593,
+    "x_verlauf": [
+      1.4125
+    ],
+    "profile": [
+      "1h"
+    ],
+    "zustandswechsel": {},
+    "pausen_gruende": {},
+    "global_zustand": "HANDELT",
+    "kurs_start": 100.23937,
+    "kurs_ende": 98.4389,
+    "cache_5m": {
+      "kerzen_verglichen": 55,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 0.6127065454545467,
+      "spanne_cache_zu_wahr": 0.1535483912804631
+    },
+    "cache_60m": {
+      "kerzen_verglichen": 4,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 1.764994999999999,
+      "spanne_cache_zu_wahr": 0.0
+    }
+  },
+  {
+    "szenario": "F2_grosse_amplitude",
+    "beschreibung": "Wie F1, aber Amplitude 2.5 EUR (Spitze-Tal 5 % > 3-%-Ausbruchsgrenze)",
+    "periode_min": 36.0,
+    "amplitude_eur": 2.5,
+    "stoerungen": "weiss 0.2",
+    "zyklen": 120,
+    "sim_von": "2026-11-05 00:00:00+00:00",
+    "sim_bis": "2026-11-05 03:58:00+00:00",
+    "rechenzeit_s": 86718.3,
+    "gate_offen_anteil": 1.0,
+    "aktiv_anteil": 1.0,
+    "h_kurz_median": 0.27365,
+    "h_mittel_median": 0.1076,
+    "ci_kurz_oben_median": 0.39,
+    "ci_mittel_oben_median": 0.2441,
+    "kaeufe": 5,
+    "verkaeufe": 4,
+    "realisiert_eur": 1.256,
+    "gebuehren_eur": 0.3312,
+    "abgebrochen": false,
+    "offene_lots": 1,
+    "unrealisiert_eur": -0.0831,
+    "endwert_markt_eur": 101.173,
+    "netto_markt_eur": 1.173,
+    "endwert_buch_eur": 101.2191,
+    "max_drawdown_markt_prozent": 0.242,
+    "tiefster_marktwert_eur": 99.8657,
+    "x_verlauf": [
+      2.0962
+    ],
+    "profile": [
+      "1h"
+    ],
+    "zustandswechsel": {
+      "PAUSIERT": 2,
+      "HANDELT": 2
+    },
+    "pausen_gruende": {
+      "Ausbruchswaechter: Abweichung vom Anker #% >= #%": 2
+    },
+    "global_zustand": "HANDELT",
+    "kurs_start": 100.23937,
+    "kurs_ende": 98.614,
+    "cache_5m": {
+      "kerzen_verglichen": 47,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 1.0172070212765971,
+      "spanne_cache_zu_wahr": 0.12669426299206174
+    },
+    "cache_60m": {
+      "kerzen_verglichen": 3,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 3.268556666666664,
+      "spanne_cache_zu_wahr": 0.0
+    }
+  },
+  {
+    "szenario": "F3_random_walk",
+    "beschreibung": "Wie F1 + Random Walk 1 EUR/Tag: kein fester Preis mehr",
+    "periode_min": 36.0,
+    "amplitude_eur": 1.4,
+    "stoerungen": "weiss 0.2; random_walk 1",
+    "zyklen": 120,
+    "sim_von": "2026-11-05 00:00:00+00:00",
+    "sim_bis": "2026-11-05 03:58:00+00:00",
+    "rechenzeit_s": 86696.8,
+    "gate_offen_anteil": 1.0,
+    "aktiv_anteil": 1.0,
+    "h_kurz_median": 0.2758,
+    "h_mittel_median": 0.17855,
+    "ci_kurz_oben_median": 0.3888,
+    "ci_mittel_oben_median": 0.2647,
+    "kaeufe": 7,
+    "verkaeufe": 5,
+    "realisiert_eur": 0.9617,
+    "gebuehren_eur": 0.4038,
+    "abgebrochen": false,
+    "offene_lots": 2,
+    "unrealisiert_eur": -0.1189,
+    "endwert_markt_eur": 100.8428,
+    "netto_markt_eur": 0.8428,
+    "endwert_buch_eur": 100.8955,
+    "max_drawdown_markt_prozent": 0.488,
+    "tiefster_marktwert_eur": 99.963,
+    "x_verlauf": [
+      1.4125
+    ],
+    "profile": [
+      "15m"
+    ],
+    "zustandswechsel": {},
+    "pausen_gruende": {},
+    "global_zustand": "HANDELT",
+    "kurs_start": 100.23937,
+    "kurs_ende": 99.19747,
+    "cache_5m": {
+      "kerzen_verglichen": 47,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 0.6195700000000008,
+      "spanne_cache_zu_wahr": 0.15574437994740084
+    },
+    "cache_60m": {
+      "kerzen_verglichen": 3,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 2.0770966666666624,
+      "spanne_cache_zu_wahr": 0.0
+    }
+  },
+  {
+    "szenario": "F4_trend",
+    "beschreibung": "Wie F1 + Abwaertstrend -5 EUR/Tag ab Laufbeginn",
+    "periode_min": 36.0,
+    "amplitude_eur": 1.4,
+    "stoerungen": "weiss 0.2; trend -5@0h",
+    "zyklen": 120,
+    "sim_von": "2026-11-05 00:00:00+00:00",
+    "sim_bis": "2026-11-05 03:58:00+00:00",
+    "rechenzeit_s": null,
+    "gate_offen_anteil": 1.0,
+    "aktiv_anteil": 1.0,
+    "h_kurz_median": 0.272,
+    "h_mittel_median": 0.11555,
+    "ci_kurz_oben_median": 0.3876,
+    "ci_mittel_oben_median": 0.2486,
+    "kaeufe": 7,
+    "verkaeufe": 5,
+    "realisiert_eur": 0.9765,
+    "gebuehren_eur": 0.4461,
+    "abgebrochen": true,
+    "offene_lots": 2,
+    "unrealisiert_eur": -0.1184,
+    "endwert_markt_eur": 100.7834,
+    "netto_markt_eur": 0.7834,
+    "endwert_buch_eur": 100.9018,
+    "max_drawdown_markt_prozent": 0.541,
+    "tiefster_marktwert_eur": 99.9587,
+    "x_verlauf": [
+      1.4125
+    ],
+    "profile": [
+      "1h"
+    ],
+    "zustandswechsel": {},
+    "pausen_gruende": {},
+    "global_zustand": "HANDELT",
+    "kurs_start": 100.23937,
+    "kurs_ende": 98.49468,
+    "cache_5m": {
+      "kerzen_verglichen": 47,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 0.6146159574468094,
+      "spanne_cache_zu_wahr": 0.1525587198408914
+    },
+    "cache_60m": {
+      "kerzen_verglichen": 3,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 2.012650000000003,
+      "spanne_cache_zu_wahr": 0.0
+    }
+  },
+  {
+    "szenario": "F4b_trend_stark",
+    "beschreibung": "",
+    "periode_min": 36.0,
+    "amplitude_eur": 1.4,
+    "stoerungen": "weiss 0.2; trend -30@0h",
+    "zyklen": 51,
+    "sim_von": "2026-11-05 00:00:00+00:00",
+    "sim_bis": "2026-11-05 01:40:00+00:00",
+    "rechenzeit_s": 1454.1,
+    "gate_offen_anteil": 1.0,
+    "aktiv_anteil": 1.0,
+    "h_kurz_median": 0.2731,
+    "h_mittel_median": 0.1148,
+    "ci_kurz_oben_median": 0.3875,
+    "ci_mittel_oben_median": 0.2494,
+    "kaeufe": 4,
+    "verkaeufe": 2,
+    "realisiert_eur": 0.3873,
+    "gebuehren_eur": 0.2219,
+    "abgebrochen": false,
+    "offene_lots": 2,
+    "unrealisiert_eur": -0.546,
+    "endwert_markt_eur": 99.8413,
+    "netto_markt_eur": -0.1587,
+    "endwert_buch_eur": 100.3158,
+    "max_drawdown_markt_prozent": 0.616,
+    "tiefster_marktwert_eur": 99.8299,
+    "x_verlauf": [
+      1.4125
+    ],
+    "profile": [
+      "1h"
+    ],
+    "zustandswechsel": {},
+    "pausen_gruende": {},
+    "global_zustand": "HANDELT",
+    "kurs_start": 100.23937,
+    "kurs_ende": 96.43272,
+    "cache_5m": {
+      "kerzen_verglichen": 20,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 0.6645570000000021,
+      "spanne_cache_zu_wahr": 0.1190544710623046
+    },
+    "cache_60m": {
+      "kerzen_verglichen": 1,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 2.8164199999999937,
+      "spanne_cache_zu_wahr": 0.0
+    }
+  },
+  {
+    "szenario": "F5_sprung",
+    "beschreibung": "Wie F1 + Kurssturz -6 EUR nach 3 h, danach weiter Schwingung",
+    "periode_min": 36.0,
+    "amplitude_eur": 1.4,
+    "stoerungen": "weiss 0.2; sprung -6@3h",
+    "zyklen": 120,
+    "sim_von": "2026-11-05 00:00:00+00:00",
+    "sim_bis": "2026-11-05 03:58:00+00:00",
+    "rechenzeit_s": null,
+    "gate_offen_anteil": 1.0,
+    "aktiv_anteil": 1.0,
+    "h_kurz_median": 0.272,
+    "h_mittel_median": 0.11449999999999999,
+    "ci_kurz_oben_median": 0.38815,
+    "ci_mittel_oben_median": 0.2496,
+    "kaeufe": 5,
+    "verkaeufe": 4,
+    "realisiert_eur": 0.8192,
+    "gebuehren_eur": 0.3361,
+    "abgebrochen": true,
+    "offene_lots": 1,
+    "unrealisiert_eur": -0.7859,
+    "endwert_markt_eur": 99.9963,
+    "netto_markt_eur": -0.0037,
+    "endwert_buch_eur": 100.7822,
+    "max_drawdown_markt_prozent": 0.96,
+    "tiefster_marktwert_eur": 99.8809,
+    "x_verlauf": [
+      1.4125
+    ],
+    "profile": [
+      "1h"
+    ],
+    "zustandswechsel": {
+      "PAUSIERT": 1
+    },
+    "pausen_gruende": {
+      "Ausbruchswaechter: Abweichung vom Anker #% >= #%": 1
+    },
+    "global_zustand": "HANDELT",
+    "kurs_start": 100.23937,
+    "kurs_ende": 93.32107,
+    "cache_5m": {
+      "kerzen_verglichen": 47,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 0.6143944680851077,
+      "spanne_cache_zu_wahr": 0.15225768158991282
+    },
+    "cache_60m": {
+      "kerzen_verglichen": 3,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 1.9443666666666672,
+      "spanne_cache_zu_wahr": 0.0
+    }
+  },
+  {
+    "szenario": "L1_weiss",
+    "beschreibung": "Langsame Schwingung + leichtes Rauschen (typische Tagesschwingung)",
+    "periode_min": 720.0,
+    "amplitude_eur": 1.4,
+    "stoerungen": "weiss 0.2",
+    "zyklen": 144,
+    "sim_von": "2026-11-05 00:00:00+00:00",
+    "sim_bis": "2026-11-05 23:50:00+00:00",
+    "rechenzeit_s": 87337.1,
+    "gate_offen_anteil": 0.0,
+    "aktiv_anteil": 0.0,
+    "h_kurz_median": 0.4585,
+    "h_mittel_median": 0.4074,
+    "ci_kurz_oben_median": 0.48025,
+    "ci_mittel_oben_median": 0.53735,
+    "kaeufe": 0,
+    "verkaeufe": 0,
+    "realisiert_eur": 0.0,
+    "gebuehren_eur": 0.0,
+    "abgebrochen": false,
+    "offene_lots": 0,
+    "unrealisiert_eur": 0,
+    "endwert_markt_eur": 100.0,
+    "netto_markt_eur": 0.0,
+    "endwert_buch_eur": 100.0,
+    "max_drawdown_markt_prozent": 0.0,
+    "tiefster_marktwert_eur": 100.0,
+    "x_verlauf": [
+      1.34
+    ],
+    "profile": [
+      "5m"
+    ],
+    "zustandswechsel": {},
+    "pausen_gruende": {},
+    "global_zustand": "HANDELT",
+    "kurs_start": 100.23937,
+    "kurs_ende": 99.46111,
+    "cache_5m": {
+      "kerzen_verglichen": 286,
+      "anteil_close_falsch": 0.5,
+      "mittlere_close_abweichung_eur": 0.10819622377622426,
+      "spanne_cache_zu_wahr": 0.5053696906840749
+    },
+    "cache_60m": {
+      "kerzen_verglichen": 23,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 0.4654147826086954,
+      "spanne_cache_zu_wahr": 0.0
+    }
+  },
+  {
+    "szenario": "L2_starkes_rauschen",
+    "beschreibung": "Langsame Schwingung + starkes Rauschen",
+    "periode_min": 720.0,
+    "amplitude_eur": 1.4,
+    "stoerungen": "weiss 1",
+    "zyklen": 144,
+    "sim_von": "2026-11-05 00:00:00+00:00",
+    "sim_bis": "2026-11-05 23:50:00+00:00",
+    "rechenzeit_s": 87429.8,
+    "gate_offen_anteil": 1.0,
+    "aktiv_anteil": 1.0,
+    "h_kurz_median": 0.2358,
+    "h_mittel_median": 0.2848,
+    "ci_kurz_oben_median": 0.3422,
+    "ci_mittel_oben_median": 0.39605,
+    "kaeufe": 21,
+    "verkaeufe": 20,
+    "realisiert_eur": 4.5378,
+    "gebuehren_eur": 1.5986,
+    "abgebrochen": false,
+    "offene_lots": 1,
+    "unrealisiert_eur": -0.1708,
+    "endwert_markt_eur": 104.3669,
+    "netto_markt_eur": 4.3669,
+    "endwert_buch_eur": 104.4991,
+    "max_drawdown_markt_prozent": 0.815,
+    "tiefster_marktwert_eur": 99.9545,
+    "x_verlauf": [
+      1.2541,
+      1.1939,
+      1.123,
+      1.1238
+    ],
+    "profile": [
+      "5m"
+    ],
+    "zustandswechsel": {
+      "HANDELT": 9,
+      "PAUSIERT": 6,
+      "NUR_VERKAUFEN": 3
+    },
+    "pausen_gruende": {
+      "Ausbruchswaechter: Abweichung vom Anker #% >= #%": 5,
+      "Ausbruchswaechter: Einzelkerzen-Ausschlag -#% >= #x robuste Sigma (#%)": 1
+    },
+    "global_zustand": "HANDELT",
+    "kurs_start": 101.19686,
+    "kurs_ende": 97.7936,
+    "cache_5m": {
+      "kerzen_verglichen": 286,
+      "anteil_close_falsch": 0.5,
+      "mittlere_close_abweichung_eur": 0.5388315734265737,
+      "spanne_cache_zu_wahr": 0.505728067400272
+    },
+    "cache_60m": {
+      "kerzen_verglichen": 23,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 1.061673913043478,
+      "spanne_cache_zu_wahr": 0.0
+    }
+  },
+  {
+    "szenario": "C1_echtzeit_cli",
+    "beschreibung": "",
+    "periode_min": 36.0,
+    "amplitude_eur": 1.4,
+    "stoerungen": "weiss 0.2",
+    "zyklen": 12,
+    "sim_von": "2026-11-13 11:57:00+00:00",
+    "sim_bis": "2026-11-14 07:33:47.495113850+00:00",
+    "rechenzeit_s": 70607.49511385,
+    "gate_offen_anteil": 1.0,
+    "aktiv_anteil": 1.0,
+    "h_kurz_median": 0.275,
+    "h_mittel_median": 0.109,
+    "ci_kurz_oben_median": null,
+    "ci_mittel_oben_median": null,
+    "kaeufe": 0,
+    "verkaeufe": 0,
+    "realisiert_eur": 0.0,
+    "gebuehren_eur": 0.0,
+    "abgebrochen": false,
+    "offene_lots": 0,
+    "unrealisiert_eur": 0,
+    "endwert_markt_eur": 100.0,
+    "netto_markt_eur": 0.0,
+    "endwert_buch_eur": 100.0,
+    "max_drawdown_markt_prozent": null,
+    "tiefster_marktwert_eur": null,
+    "x_verlauf": [
+      1.3262535087719298
+    ],
+    "profile": [
+      "15m"
+    ],
+    "zustandswechsel": {},
+    "pausen_gruende": {},
+    "global_zustand": "HANDELT",
+    "kurs_start": 99.74128,
+    "kurs_ende": 98.69327,
+    "cache_5m": {
+      "kerzen_verglichen": 234,
+      "anteil_close_falsch": 0.017094017094017096,
+      "mittlere_close_abweichung_eur": 0.007609999999999976,
+      "spanne_cache_zu_wahr": 0.9898165657163656
+    },
+    "cache_60m": {
+      "kerzen_verglichen": 19,
+      "anteil_close_falsch": 0.05263157894736842,
+      "mittlere_close_abweichung_eur": 0.12441157894736864,
+      "spanne_cache_zu_wahr": 0.9493488600539491
+    }
+  },
+  {
+    "szenario": "C1_echtzeit_cli",
+    "beschreibung": "",
+    "periode_min": 36.0,
+    "amplitude_eur": 1.4,
+    "stoerungen": "weiss 0.2",
+    "zyklen": 5,
+    "sim_von": "2026-11-14 07:35:00+00:00",
+    "sim_bis": "2026-11-14 07:49:02.067139626+00:00",
+    "rechenzeit_s": 842.067139626,
+    "gate_offen_anteil": 1.0,
+    "aktiv_anteil": 1.0,
+    "h_kurz_median": 0.275,
+    "h_mittel_median": 0.115,
+    "ci_kurz_oben_median": null,
+    "ci_mittel_oben_median": null,
+    "kaeufe": 0,
+    "verkaeufe": 0,
+    "realisiert_eur": 0.0,
+    "gebuehren_eur": 0.0,
+    "abgebrochen": false,
+    "offene_lots": 0,
+    "unrealisiert_eur": 0,
+    "endwert_markt_eur": 100.0,
+    "netto_markt_eur": 0.0,
+    "endwert_buch_eur": 100.0,
+    "max_drawdown_markt_prozent": null,
+    "tiefster_marktwert_eur": null,
+    "x_verlauf": [
+      1.4842605263157895
+    ],
+    "profile": [
+      "15m"
+    ],
+    "zustandswechsel": {},
+    "pausen_gruende": {},
+    "global_zustand": "HANDELT",
+    "kurs_start": 100.01715,
+    "kurs_ende": 100.97956,
+    "cache_5m": {
+      "kerzen_verglichen": 2,
+      "anteil_close_falsch": 1.0,
+      "mittlere_close_abweichung_eur": 0.6717399999999998,
+      "spanne_cache_zu_wahr": 0.27794356475842885
+    },
+    "cache_60m": null
+  }
+]

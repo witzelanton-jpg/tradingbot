@@ -1,0 +1,573 @@
+13:04:49 [INFO] hurstbot_test3.sim_run: Paper-Modus: virtuelle Ausfuehrung, keine echten Orders. Kurse: synthetisch (100 + 1.4*sin(2*pi*40/Tag*t) + weisses Rauschen sigma=0.2 EUR)
+13:04:49 [INFO] hurstbot.scanner: Handelsregeln fuer 1 Paare geladen: SINUSEUR
+13:04:49 [INFO] hurstbot.runner: Kein gueltiger Zustand gefunden - starte frisch mit 100.00 EUR
+13:04:49 [INFO] hurstbot_test3.sim_run: Bot gestartet (simulierte Uhr ab 2026-11-05 00:00:00+00:00, Schritt 0 days 00:02:00, bis 2026-11-05 08:00:00+00:00)
+13:05:24 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.244    0.269     0.115     0.87     JA  H=0.269 < H_START=0.45
+13:05:25 [INFO] hurstbot.runner: X fuer SINUSEUR aktualisiert: 1.3400 % -> 1.4125 % (Out-of-Sample-Score 2.08 EUR, 5.0 Round-Trips)
+13:05:28 [WARNING] hurstbot.runner: Zeitskala-Wechsel fuer SINUSEUR: 5m -> 1h. Grund: Bestes Out-of-Sample-Nettogewinn-Ergebnis unter Kandidaten mit >= 3 Round-Trips (Score=13.85 EUR). Offene Lots (0) bleiben erhalten.
+13:06:05 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.242    0.269     0.115     0.86     JA  H=0.269 < H_START=0.45
+13:06:33 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.243    0.269     0.115     0.87     JA  H=0.269 < H_START=0.45
+13:07:11 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.244    0.270     0.115     0.87     JA  H=0.270 < H_START=0.45
+13:07:33 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.241    0.270     0.115     0.86     JA  H=0.270 < H_START=0.45
+13:08:05 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.240    0.272     0.115     0.87     JA  H=0.272 < H_START=0.45
+13:08:30 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.237    0.272     0.115     0.86     JA  H=0.272 < H_START=0.45
+13:09:01 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.237    0.272     0.115     0.86     JA  H=0.272 < H_START=0.45
+13:09:30 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.238    0.272     0.115     0.87     JA  H=0.272 < H_START=0.45
+13:10:07 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.239    0.272     0.115     0.87     JA  H=0.272 < H_START=0.45
+13:10:36 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.241    0.270     0.115     0.86     JA  H=0.270 < H_START=0.45
+13:11:10 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.240    0.270     0.115     0.86     JA  H=0.270 < H_START=0.45
+13:11:39 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.244    0.270     0.115     0.87     JA  H=0.270 < H_START=0.45
+13:12:12 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.241    0.269     0.115     0.86     JA  H=0.269 < H_START=0.45
+13:12:39 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.246    0.269     0.115     0.87     JA  H=0.269 < H_START=0.45
+13:13:15 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.242    0.270     0.115     0.87     JA  H=0.270 < H_START=0.45
+13:13:41 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.241    0.270     0.115     0.86     JA  H=0.270 < H_START=0.45
+13:14:14 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.242    0.270     0.115     0.86     JA  H=0.270 < H_START=0.45
+13:14:41 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.243    0.270     0.115     0.87     JA  H=0.270 < H_START=0.45
+13:15:15 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.241    0.270     0.115     0.86     JA  H=0.270 < H_START=0.45
+### Fortschritt F1_weiss: Zyklus 20, Sim-Zeit 2026-11-05 00:38:00+00:00, 626 s gelaufen
+23:20:26 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.238    0.272     0.115     0.86     JA  H=0.272 < H_START=0.45
+08:33:56 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.237    0.272     0.115     0.86     JA  H=0.272 < H_START=0.45
+08:34:32 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.236    0.272     0.115     0.86     JA  H=0.272 < H_START=0.45
+08:36:18 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.236    0.272     0.115     0.86     JA  H=0.272 < H_START=0.45
+08:38:04 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.237    0.272     0.115     0.86     JA  H=0.272 < H_START=0.45
+08:39:46 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.242    0.270     0.115     0.87     JA  H=0.270 < H_START=0.45
+08:41:26 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.239    0.270     0.115     0.86     JA  H=0.270 < H_START=0.45
+08:43:10 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.239    0.270     0.115     0.86     JA  H=0.270 < H_START=0.45
+08:44:45 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.232    0.275     0.115     0.87     JA  H=0.275 < H_START=0.45
+08:46:28 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.233    0.275     0.115     0.87     JA  H=0.275 < H_START=0.45
+08:48:06 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.242    0.270     0.116     0.87     JA  H=0.270 < H_START=0.45
+08:49:44 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.244    0.270     0.116     0.87     JA  H=0.270 < H_START=0.45
+08:51:36 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.244    0.270     0.116     0.87     JA  H=0.270 < H_START=0.45
+08:53:14 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.245    0.268     0.116     0.86     JA  H=0.268 < H_START=0.45
+08:54:42 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.244    0.268     0.116     0.86     JA  H=0.268 < H_START=0.45
+08:56:10 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.238    0.271     0.116     0.86     JA  H=0.271 < H_START=0.45
+08:57:37 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.240    0.271     0.116     0.86     JA  H=0.271 < H_START=0.45
+08:59:04 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.239    0.271     0.116     0.86     JA  H=0.271 < H_START=0.45
+09:10:24 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.238    0.273     0.116     0.87     JA  H=0.273 < H_START=0.45
+09:11:51 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.237    0.273     0.116     0.87     JA  H=0.273 < H_START=0.45
+### Fortschritt F1_weiss: Zyklus 40, Sim-Zeit 2026-11-05 01:18:00+00:00, 72425 s gelaufen
+09:13:18 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.248    0.268     0.116     0.88     JA  H=0.268 < H_START=0.45
+09:14:45 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.243    0.268     0.116     0.86     JA  H=0.268 < H_START=0.45
+09:16:10 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.245    0.268     0.116     0.86     JA  H=0.268 < H_START=0.45
+09:17:35 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.251    0.264     0.116     0.86     JA  H=0.264 < H_START=0.45
+09:19:00 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.252    0.264     0.116     0.86     JA  H=0.264 < H_START=0.45
+09:20:24 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.233    0.276     0.116     0.87     JA  H=0.276 < H_START=0.45
+09:21:52 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.233    0.276     0.116     0.87     JA  H=0.276 < H_START=0.45
+09:23:24 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.232    0.276     0.116     0.86     JA  H=0.276 < H_START=0.45
+09:24:57 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.230    0.277     0.116     0.86     JA  H=0.277 < H_START=0.45
+09:26:30 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.230    0.277     0.116     0.86     JA  H=0.277 < H_START=0.45
+09:28:01 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.239    0.272     0.116     0.86     JA  H=0.272 < H_START=0.45
+09:29:30 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.238    0.272     0.116     0.86     JA  H=0.272 < H_START=0.45
+09:47:16 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.239    0.272     0.116     0.86     JA  H=0.272 < H_START=0.45
+12:43:05 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.236    0.274     0.116     0.87     JA  H=0.274 < H_START=0.45
+12:44:28 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.234    0.274     0.116     0.86     JA  H=0.274 < H_START=0.45
+12:44:59 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.237    0.271     0.116     0.85     JA  H=0.271 < H_START=0.45
+12:45:26 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.240    0.271     0.116     0.86     JA  H=0.271 < H_START=0.45
+12:45:52 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.241    0.271     0.116     0.87     JA  H=0.271 < H_START=0.45
+12:46:15 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.234    0.273     0.116     0.85     JA  H=0.273 < H_START=0.45
+12:46:38 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.235    0.273     0.116     0.86     JA  H=0.273 < H_START=0.45
+### Fortschritt F1_weiss: Zyklus 60, Sim-Zeit 2026-11-05 01:58:00+00:00, 85312 s gelaufen
+12:47:00 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.226    0.278     0.114     0.86     JA  H=0.278 < H_START=0.45
+12:47:24 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.226    0.278     0.114     0.87     JA  H=0.278 < H_START=0.45
+12:47:47 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.227    0.278     0.114     0.87     JA  H=0.278 < H_START=0.45
+12:48:30 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.236    0.273     0.114     0.87     JA  H=0.273 < H_START=0.45
+12:48:59 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.236    0.273     0.114     0.87     JA  H=0.273 < H_START=0.45
+12:49:21 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.240    0.270     0.114     0.87     JA  H=0.270 < H_START=0.45
+12:49:44 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.238    0.270     0.114     0.86     JA  H=0.270 < H_START=0.45
+12:50:06 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.239    0.270     0.114     0.86     JA  H=0.270 < H_START=0.45
+12:50:26 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.242    0.269     0.114     0.87     JA  H=0.269 < H_START=0.45
+12:50:48 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.242    0.269     0.114     0.87     JA  H=0.269 < H_START=0.45
+12:51:09 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.234    0.275     0.114     0.87     JA  H=0.275 < H_START=0.45
+12:51:31 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.233    0.275     0.114     0.87     JA  H=0.275 < H_START=0.45
+12:51:54 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.232    0.275     0.114     0.87     JA  H=0.275 < H_START=0.45
+12:52:17 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.234    0.274     0.114     0.87     JA  H=0.274 < H_START=0.45
+12:52:36 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.234    0.274     0.114     0.87     JA  H=0.274 < H_START=0.45
+12:52:56 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.234    0.272     0.114     0.86     JA  H=0.272 < H_START=0.45
+12:53:16 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.234    0.272     0.114     0.86     JA  H=0.272 < H_START=0.45
+12:53:36 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.238    0.272     0.114     0.87     JA  H=0.272 < H_START=0.45
+12:53:56 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.228    0.276     0.114     0.86     JA  H=0.276 < H_START=0.45
+12:54:16 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.229    0.276     0.114     0.86     JA  H=0.276 < H_START=0.45
+### Fortschritt F1_weiss: Zyklus 80, Sim-Zeit 2026-11-05 02:38:00+00:00, 85771 s gelaufen
+12:54:36 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.235    0.272     0.114     0.86     JA  H=0.272 < H_START=0.45
+12:54:56 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.235    0.272     0.114     0.86     JA  H=0.272 < H_START=0.45
+12:55:16 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.233    0.272     0.114     0.85     JA  H=0.272 < H_START=0.45
+12:55:36 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.238    0.271     0.114     0.86     JA  H=0.271 < H_START=0.45
+12:55:57 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.237    0.271     0.114     0.86     JA  H=0.271 < H_START=0.45
+12:56:17 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.244    0.268     0.114     0.87     JA  H=0.268 < H_START=0.45
+12:56:37 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.240    0.268     0.114     0.86     JA  H=0.268 < H_START=0.45
+12:57:00 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.241    0.268     0.114     0.86     JA  H=0.268 < H_START=0.45
+12:57:21 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.232    0.274     0.114     0.86     JA  H=0.274 < H_START=0.45
+12:57:44 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.230    0.274     0.114     0.85     JA  H=0.274 < H_START=0.45
+12:58:06 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.240    0.272     0.119     0.86     JA  H=0.272 < H_START=0.45
+12:58:28 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.239    0.272     0.119     0.86     JA  H=0.272 < H_START=0.45
+12:58:51 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.238    0.272     0.119     0.85     JA  H=0.272 < H_START=0.45
+12:59:12 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.253    0.263     0.119     0.86     JA  H=0.263 < H_START=0.45
+12:59:35 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.252    0.263     0.119     0.85     JA  H=0.263 < H_START=0.45
+12:59:58 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.241    0.270     0.119     0.85     JA  H=0.270 < H_START=0.45
+13:00:21 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.246    0.270     0.119     0.87     JA  H=0.270 < H_START=0.45
+13:00:49 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.243    0.270     0.119     0.86     JA  H=0.270 < H_START=0.45
+13:01:13 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.232    0.277     0.119     0.87     JA  H=0.277 < H_START=0.45
+13:01:35 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.232    0.277     0.119     0.86     JA  H=0.277 < H_START=0.45
+### Fortschritt F1_weiss: Zyklus 100, Sim-Zeit 2026-11-05 03:18:00+00:00, 86210 s gelaufen
+13:01:57 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.237    0.273     0.119     0.86     JA  H=0.273 < H_START=0.45
+13:02:19 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.239    0.273     0.119     0.87     JA  H=0.273 < H_START=0.45
+13:02:41 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.236    0.273     0.119     0.86     JA  H=0.273 < H_START=0.45
+13:03:02 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.240    0.273     0.119     0.87     JA  H=0.273 < H_START=0.45
+13:03:23 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.241    0.273     0.119     0.87     JA  H=0.273 < H_START=0.45
+13:03:45 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.237    0.273     0.119     0.86     JA  H=0.273 < H_START=0.45
+13:04:05 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.236    0.273     0.119     0.85     JA  H=0.273 < H_START=0.45
+13:04:25 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.237    0.273     0.119     0.86     JA  H=0.273 < H_START=0.45
+13:04:47 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.244    0.271     0.119     0.87     JA  H=0.271 < H_START=0.45
+13:05:12 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.244    0.271     0.119     0.87     JA  H=0.271 < H_START=0.45
+13:05:39 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.246    0.268     0.119     0.86     JA  H=0.268 < H_START=0.45
+13:06:06 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.246    0.268     0.119     0.86     JA  H=0.268 < H_START=0.45
+13:06:32 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.247    0.268     0.119     0.87     JA  H=0.268 < H_START=0.45
+13:06:59 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.244    0.269     0.119     0.86     JA  H=0.269 < H_START=0.45
+13:07:25 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.242    0.269     0.119     0.85     JA  H=0.269 < H_START=0.45
+13:07:52 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.255    0.265     0.119     0.87     JA  H=0.265 < H_START=0.45
+13:08:18 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.252    0.265     0.119     0.86     JA  H=0.265 < H_START=0.45
+13:08:45 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.253    0.265     0.119     0.86     JA  H=0.265 < H_START=0.45
+13:09:11 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.248    0.268     0.119     0.87     JA  H=0.268 < H_START=0.45
+13:09:38 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.247    0.268     0.119     0.86     JA  H=0.268 < H_START=0.45
+### Fortschritt F1_weiss: Zyklus 120, Sim-Zeit 2026-11-05 03:58:00+00:00, 86692 s gelaufen
+13:10:04 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.241    0.274     0.124     0.87     JA  H=0.274 < H_START=0.45
+13:10:30 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.239    0.274     0.124     0.86     JA  H=0.274 < H_START=0.45
+13:10:57 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.238    0.274     0.124     0.86     JA  H=0.274 < H_START=0.45
+13:11:23 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.241    0.272     0.124     0.86     JA  H=0.272 < H_START=0.45
+13:11:49 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.242    0.272     0.124     0.86     JA  H=0.272 < H_START=0.45
+13:12:16 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.242    0.273     0.124     0.87     JA  H=0.273 < H_START=0.45
+13:12:42 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.238    0.273     0.124     0.86     JA  H=0.273 < H_START=0.45
+13:13:08 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.241    0.273     0.124     0.87     JA  H=0.273 < H_START=0.45
+13:13:35 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.234    0.276     0.124     0.86     JA  H=0.276 < H_START=0.45
+13:13:53 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.235    0.276     0.124     0.86     JA  H=0.276 < H_START=0.45
+13:14:10 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.240    0.275     0.124     0.87     JA  H=0.275 < H_START=0.45
+13:14:27 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.240    0.275     0.124     0.87     JA  H=0.275 < H_START=0.45
+13:14:46 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.237    0.275     0.124     0.86     JA  H=0.275 < H_START=0.45
+13:15:31 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.243    0.274     0.124     0.87     JA  H=0.274 < H_START=0.45
+13:16:10 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.241    0.274     0.124     0.86     JA  H=0.274 < H_START=0.45
+13:16:42 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.243    0.272     0.124     0.87     JA  H=0.272 < H_START=0.45
+13:17:09 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.243    0.272     0.124     0.86     JA  H=0.272 < H_START=0.45
+13:17:37 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.243    0.272     0.124     0.86     JA  H=0.272 < H_START=0.45
+13:18:05 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.238    0.274     0.124     0.86     JA  H=0.274 < H_START=0.45
+13:18:33 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.243    0.274     0.124     0.87     JA  H=0.274 < H_START=0.45
+### Fortschritt F1_weiss: Zyklus 140, Sim-Zeit 2026-11-05 04:38:00+00:00, 87228 s gelaufen

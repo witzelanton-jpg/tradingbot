@@ -1,0 +1,21 @@
+# Nur ein Starter fuer den Befehl "hurstbot" in der venv von hurstbot_test3.
+# Er enthaelt keinen eigenen Code: der Einstiegspunkt ist derselbe wie in
+# Codebasis/pyproject.toml (hurstbot.cli:main). Der Bot-Code selbst wird ueber
+# .venv/Lib/site-packages/hurstbot_codebasis.pth direkt aus Codebasis/src
+# geladen - so muss "pip install -e Codebasis" nicht laufen, das sonst
+# Codebasis/src/hurstbot.egg-info neu schreiben wuerde.
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hurstbot-starter-test3"
+version = "0.1.0"
+requires-python = ">=3.11"
+
+[project.scripts]
+hurstbot = "hurstbot.cli:main"
+
+[tool.setuptools]
+packages = []
+py-modules = []

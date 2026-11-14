@@ -1,0 +1,45 @@
+{
+  "name": "F3_random_walk",
+  "beschreibung": "Wie F1 + Random Walk 1 EUR/Tag: kein fester Preis mehr",
+  "paar": "SINUSEUR",
+  "modell": {
+    "basispreis": 100.0,
+    "amplitude": 1.4,
+    "frequenz_pro_tag": 40,
+    "phase_grad": 0.0,
+    "stoerungen": [
+      {
+        "art": "weiss",
+        "staerke": 0.2,
+        "ab_stunden": 0.0
+      },
+      {
+        "art": "random_walk",
+        "staerke": 1.0,
+        "ab_stunden": 0.0
+      }
+    ],
+    "seed": 1
+  },
+  "formel": "100 + 1.4*sin(2*pi*40/Tag*t) + weisses Rauschen sigma=0.2 EUR + Random Walk 1 EUR/Tag",
+  "periode_minuten": 36.0,
+  "amplitude_prozent_von_p0": 1.4,
+  "laufbeginn": "2026-11-05T00:00:00+00:00",
+  "laufende": "2026-11-05T04:00:00+00:00",
+  "lauf_stunden": 4.0,
+  "historie_tage": 400,
+  "historie_start": "2025-10-01T00:00:00+00:00",
+  "config_abweichungen": {
+    "abfrage_sekunden": 120
+  },
+  "kurs_im_lauf": {
+    "min": 98.11869,
+    "max": 101.57555,
+    "start": 100.23937,
+    "ende": 98.43521
+  },
+  "kurs_gesamt": {
+    "min": 83.76498,
+    "max": 115.17278
+  }
+}

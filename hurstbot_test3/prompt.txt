@@ -1,0 +1,8 @@
+Hier ist mein Tradingbot. Unter Codebasis ist der gesamte code. An diesem darf NICHTS verändert werden. 
+Ziel ist es einen lestzten Test durchzuführen. Unter hurstbot_test1 und hurstbot_test2 kannst du sehen,
+wie diese bisher strukturriert wurden. Dieser dritte Test, den wir jetzt durchführen, soll den Bot an einem
+idealisierten Datansatz prüfen. Der Bot handelt besonders gut, wenn er Kurse ersisch, die um einen festen Preis oszilliern. 
+Hier sollen also Testdaten entwichekt werden mit y(t) = A*sin(...) + stör mit unterschiedlichen Störungen. Dann soll der hurstbot im hurstbot run (also im niedrigsten testmodus) 
+mit diesen idealisierten Daten das Analysieren und dann das Handelen simulieren. Arbeite nur im Ordner hurstbot_test3 und erstlle dort
+die Möglichkeit idealisierte Daten zu schaffen (mit einer Eingabe für Amplitude, Frequenz und Stör) auf denen der Bot zugreifen kann.
+Anschließend, lasse den Test laufen und erstelle im Stil der Protokolle aus den anderen beiden Tests ein Protokoll. Bei Unklarheiten frage nach.    

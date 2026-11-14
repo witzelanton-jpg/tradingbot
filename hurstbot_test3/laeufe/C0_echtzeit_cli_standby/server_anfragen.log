@@ -1,0 +1,58 @@
+2026-11-13T11:58:02.344322+00:00 Ticker {'pair': 'SINUSEUR'} -> ok
+2026-11-13T11:58:02.403545+00:00 AssetPairs {'pair': 'SINUSEUR'} -> ok
+2026-11-13T11:58:03.043553+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '5'} -> ok
+2026-11-13T11:58:12.142162+00:00 AssetPairs {'pair': 'SINUSEUR'} -> ok
+2026-11-13T11:58:13.883873+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '5'} -> ok
+2026-11-13T11:58:14.201427+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '60'} -> ok
+2026-11-13T11:58:15.145160+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '1440'} -> ok
+2026-11-13T11:58:44.082326+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '5', 'since': '1794570900'} -> ok
+2026-11-13T11:58:45.237730+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '5', 'since': '1794570900'} -> ok
+2026-11-13T11:58:46.463852+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '15'} -> ok
+2026-11-13T11:58:47.232216+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '60', 'since': '1794567600'} -> ok
+2026-11-13T11:58:50.351655+00:00 Ticker {'pair': 'SINUSEUR'} -> ok
+2026-11-13T11:58:51.345323+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '15', 'since': '1794570300'} -> ok
+2026-11-13T11:59:51.388215+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '5', 'since': '1794570900'} -> ok
+2026-11-13T11:59:52.387896+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '60', 'since': '1794567600'} -> ok
+2026-11-13T12:00:32.601120+00:00 Ticker {'pair': 'SINUSEUR'} -> ok
+2026-11-13T12:00:33.591013+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '15', 'since': '1794570300'} -> ok
+2026-11-13T12:01:33.636124+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '5', 'since': '1794570900'} -> ok
+2026-11-13T12:01:34.639528+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '60', 'since': '1794567600'} -> ok
+2026-11-13T12:01:35.631674+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '1440', 'since': '1794528000'} -> ok
+2026-11-13T12:02:13.294925+00:00 Ticker {'pair': 'SINUSEUR'} -> ok
+2026-11-13T12:03:13.384527+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '5', 'since': '1794571200'} -> ok
+2026-11-13T12:03:14.386803+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '1440', 'since': '1794528000'} -> ok
+2026-11-13T12:03:44.997951+00:00 Ticker {'pair': 'SINUSEUR'} -> ok
+2026-11-13T12:04:45.164387+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '5', 'since': '1794571200'} -> ok
+2026-11-13T12:04:46.152448+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '1440', 'since': '1794528000'} -> ok
+2026-11-13T12:05:21.926437+00:00 Ticker {'pair': 'SINUSEUR'} -> ok
+2026-11-13T12:06:21.944114+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '5', 'since': '1794571200'} -> ok
+2026-11-13T12:06:22.938386+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '1440', 'since': '1794528000'} -> ok
+2026-11-13T12:07:01.276989+00:00 Ticker {'pair': 'SINUSEUR'} -> ok
+2026-11-13T12:08:01.302903+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '5', 'since': '1794571500'} -> ok
+2026-11-13T12:08:02.303333+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '1440', 'since': '1794528000'} -> ok
+2026-11-13T12:08:27.208571+00:00 Ticker {'pair': 'SINUSEUR'} -> ok
+2026-11-13T12:08:28.214540+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '15', 'since': '1794571200'} -> ok
+2026-11-13T12:09:28.274753+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '5', 'since': '1794571500'} -> ok
+2026-11-13T12:09:29.295208+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '1440', 'since': '1794528000'} -> ok
+2026-11-13T12:10:06.616896+00:00 Ticker {'pair': 'SINUSEUR'} -> ok
+2026-11-13T12:10:07.621072+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '15', 'since': '1794571200'} -> ok
+2026-11-13T12:11:07.698357+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '5', 'since': '1794571500'} -> ok
+2026-11-13T12:11:08.705627+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '1440', 'since': '1794528000'} -> ok
+2026-11-13T12:11:37.164480+00:00 Ticker {'pair': 'SINUSEUR'} -> ok
+2026-11-13T12:11:38.174762+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '15', 'since': '1794571200'} -> ok
+2026-11-13T12:12:38.246086+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '5', 'since': '1794571800'} -> ok
+2026-11-13T12:12:39.247095+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '1440', 'since': '1794528000'} -> ok
+2026-11-13T12:13:14.967604+00:00 Ticker {'pair': 'SINUSEUR'} -> ok
+2026-11-13T12:13:15.975860+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '15', 'since': '1794571200'} -> ok
+2026-11-13T12:14:16.059954+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '5', 'since': '1794571800'} -> ok
+2026-11-13T12:14:17.063797+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '1440', 'since': '1794528000'} -> ok
+2026-11-13T12:14:45.345010+00:00 Ticker {'pair': 'SINUSEUR'} -> ok
+2026-11-13T12:14:46.346596+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '15', 'since': '1794571200'} -> ok
+2026-11-13T12:42:42.661228+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '5', 'since': '1794571800'} -> ok
+2026-11-13T12:42:43.632862+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '60', 'since': '1794571200'} -> ok
+2026-11-13T12:42:44.596980+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '1440', 'since': '1794528000'} -> ok
+2026-11-14T07:33:46.478851+00:00 Ticker {'pair': 'SINUSEUR'} -> ok
+2026-11-14T07:33:47.473243+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '15', 'since': '1794571200'} -> ok
+2026-11-14T07:34:47.627343+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '5', 'since': '1794573600'} -> ok
+2026-11-14T07:34:48.620371+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '60', 'since': '1794571200'} -> ok
+2026-11-14T07:34:49.621778+00:00 OHLC {'pair': 'SINUSEUR', 'interval': '1440', 'since': '1794528000'} -> ok

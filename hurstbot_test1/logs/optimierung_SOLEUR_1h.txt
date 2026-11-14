@@ -1,0 +1,23 @@
+X-Optimierung fuer SOLEUR
+========================================
+Gewaehltes X (nach Glaettung):      1.0663 %
+Gebuehren-Breakeven (untere Grenze): 0.6700 %
+Mittlerer Out-of-Sample-Score:       -1.0674 EUR
+Mittlere Round-Trips je Fenster:     1.40
+Mittlere Amplitude je Round-Trip:    0.5398 %
+Anzahl ausgewerteter Fenster:         5
+
+!! WARNUNG: Das Out-of-Sample-Ergebnis ist im Mittel NEGATIV
+!! (-1.0674 EUR). Dieses X war auf den Testdaten
+!! verlustbringend - es ist nur das am wenigsten schlechte aus dem Suchbereich.
+!! Der Bot uebernimmt es deshalb NICHT und behaelt sein bisheriges X.
+!! Das ist ein Hinweis darauf, dass dieses Paar in diesem Zeitraum nicht
+!! oszilliert hat - die Strategie passt hier derzeit nicht.
+!! Der Bot handelt mit einem solchen X nicht.
+
+Pro Fenster gewaehltes X (Training) vs. Out-of-Sample-Ergebnis:
+  Fenster 0: X=1.0663 % | Netto +0.47 EUR | Drawdown 1.20 % | Round-Trips 3
+  Fenster 1: X=0.6700 % | Netto -1.08 EUR | Drawdown 1.57 % | Round-Trips 3
+  Fenster 2: X=0.6700 % | Netto +0.08 EUR | Drawdown 0.10 % | Round-Trips 1
+  Fenster 3: X=1.1980 % | Netto -0.26 EUR | Drawdown 0.65 % | Round-Trips 0
+  Fenster 4: X=4.7721 % | Netto -0.11 EUR | Drawdown 0.84 % | Round-Trips 0

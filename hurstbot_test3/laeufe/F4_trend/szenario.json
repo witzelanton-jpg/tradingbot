@@ -1,0 +1,45 @@
+{
+  "name": "F4_trend",
+  "beschreibung": "Wie F1 + Abwaertstrend -5 EUR/Tag ab Laufbeginn",
+  "paar": "SINUSEUR",
+  "modell": {
+    "basispreis": 100.0,
+    "amplitude": 1.4,
+    "frequenz_pro_tag": 40,
+    "phase_grad": 0.0,
+    "stoerungen": [
+      {
+        "art": "weiss",
+        "staerke": 0.2,
+        "ab_stunden": 0.0
+      },
+      {
+        "art": "trend",
+        "staerke": -5.0,
+        "ab_stunden": 0
+      }
+    ],
+    "seed": 1
+  },
+  "formel": "100 + 1.4*sin(2*pi*40/Tag*t) + weisses Rauschen sigma=0.2 EUR + Trend -5 EUR/Tag ab 0 h",
+  "periode_minuten": 36.0,
+  "amplitude_prozent_von_p0": 1.4,
+  "laufbeginn": "2026-11-05T00:00:00+00:00",
+  "laufende": "2026-11-05T08:00:00+00:00",
+  "lauf_stunden": 8.0,
+  "historie_tage": 400,
+  "historie_start": "2025-10-01T00:00:00+00:00",
+  "config_abweichungen": {
+    "abfrage_sekunden": 120
+  },
+  "kurs_im_lauf": {
+    "min": 96.91889,
+    "max": 101.52772,
+    "start": 100.23937,
+    "ende": 99.48419
+  },
+  "kurs_gesamt": {
+    "min": 91.75384,
+    "max": 102.18306
+  }
+}

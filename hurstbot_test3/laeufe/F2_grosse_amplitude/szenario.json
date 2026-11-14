@@ -1,0 +1,40 @@
+{
+  "name": "F2_grosse_amplitude",
+  "beschreibung": "Wie F1, aber Amplitude 2.5 EUR (Spitze-Tal 5 % > 3-%-Ausbruchsgrenze)",
+  "paar": "SINUSEUR",
+  "modell": {
+    "basispreis": 100.0,
+    "amplitude": 2.5,
+    "frequenz_pro_tag": 40,
+    "phase_grad": 0.0,
+    "stoerungen": [
+      {
+        "art": "weiss",
+        "staerke": 0.2,
+        "ab_stunden": 0.0
+      }
+    ],
+    "seed": 1
+  },
+  "formel": "100 + 2.5*sin(2*pi*40/Tag*t) + weisses Rauschen sigma=0.2 EUR",
+  "periode_minuten": 36.0,
+  "amplitude_prozent_von_p0": 2.5,
+  "laufbeginn": "2026-11-05T00:00:00+00:00",
+  "laufende": "2026-11-05T04:00:00+00:00",
+  "lauf_stunden": 4.0,
+  "historie_tage": 400,
+  "historie_start": "2025-10-01T00:00:00+00:00",
+  "config_abweichungen": {
+    "abfrage_sekunden": 120
+  },
+  "kurs_im_lauf": {
+    "min": 97.21952,
+    "max": 102.76379,
+    "start": 100.23937,
+    "ende": 97.69581
+  },
+  "kurs_gesamt": {
+    "min": 96.71544,
+    "max": 103.26635
+  }
+}

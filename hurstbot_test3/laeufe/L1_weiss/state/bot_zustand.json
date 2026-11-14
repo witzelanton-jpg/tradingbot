@@ -1,0 +1,24 @@
+{
+  "start_kapital_eur": 100.0,
+  "kapital_frei_eur": 100.0,
+  "global_zustand": "HANDELT",
+  "erstellt_am": "2026-11-13T12:04:49.499242+00:00",
+  "paare": {
+    "SINUSEUR": {
+      "paar": "SINUSEUR",
+      "zustand": "HANDELT",
+      "lots": [],
+      "kapital_eur": 0.0,
+      "anker_preis": null,
+      "gate_handelt": false,
+      "zeitskala_profil_name": "5m",
+      "letzte_zeitskala_neubewertung": null,
+      "x_prozent": 1.34,
+      "letzte_x_optimierung": null,
+      "pausiert_seit": null,
+      "anker_preis_bei_pause": null,
+      "stabile_kerzen_zaehler": 0,
+      "wiedereinstieg_warnung_ausgegeben": false
+    }
+  }
+}

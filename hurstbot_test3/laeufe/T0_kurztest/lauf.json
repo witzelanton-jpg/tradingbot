@@ -1,0 +1,13 @@
+{
+  "zyklen": 4,
+  "sim_von": "2026-11-05T00:00:00+00:00",
+  "sim_bis": "2026-11-05T00:04:00+00:00",
+  "schritt_sekunden": 60,
+  "rechenzeit_s": 45.7,
+  "api_anfragen": {
+    "AssetPairs": 1,
+    "OHLC": 20,
+    "Ticker": 4
+  },
+  "global_zustand": "HANDELT"
+}

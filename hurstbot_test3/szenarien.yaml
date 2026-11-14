@@ -1,0 +1,106 @@
+# Szenarien fuer hurstbot_test3 (idealisierte Daten)
+#
+#   y(t) = P0 + A * sin(2*pi*f*t) + Stoerung(t)
+#
+# Einheiten: amplitude in EUR, frequenz_pro_tag in Schwingungen pro Tag,
+# Stoerungen: weiss = Std.-Abw. EUR je Minutenwert, random_walk = Std.-Abw. EUR pro Tag,
+#             trend = EUR pro Tag ab ab_stunden, sprung = EUR ab ab_stunden.
+# Alle Szenarien nutzen denselben Zufalls-Seed, damit sich die Laeufe nur in der
+# jeweils geaenderten Groesse unterscheiden.
+#
+# Erzeugen:  python synth/generator.py --szenarien szenarien.yaml
+# Laufen:    python synth/sim_run.py laeufe/<name>   (alle parallel: bash starte_simulationen.sh)
+#
+# Rechenzeit: ein Zyklus kostet auf diesem Laptop (i5-1334U) unter Volllast ca. 38 s,
+# vor allem wegen des Bootstraps (500 Wiederholungen auf drei Skalen). Deshalb laufen
+# die Szenarien mit laengerem Zyklus als der Default von 60 s (Config: abfrage_sekunden).
+# Der echte CLI-Run (C1_echtzeit_cli) nutzt den Default 60 s.
+
+standard:
+  laufbeginn: "2026-11-05T00:00:00Z"   # simulierte Zeit, liegt vor "jetzt" (siehe Protokoll)
+  historie_tage: 400                    # genug fuer 365 Tageskerzen
+  paar: SINUSEUR
+  modell:
+    basispreis: 100.0
+    seed: 1
+
+szenarien:
+  # ---- schnelle Schwingung: Periode 36 min (f = 40/Tag), Zyklus 120 s ----
+  # 36 statt 30 min, damit die Stundenkerzen nicht immer dieselbe Phase treffen
+  # (bei 30 min waere jede Stundenkerze exakt gleich).
+  # 120 s Zyklus = 18 Abfragen je Schwingung.
+  F0_rein:
+    beschreibung: "Referenz: reiner Sinus, keine Stoerung"
+    amplitude: 1.4
+    frequenz_pro_tag: 40
+    stoerungen: []
+    lauf_stunden: 2
+    config: {abfrage_sekunden: 120}
+
+  F1_weiss:
+    beschreibung: "Ideal: Sinus + leichtes weisses Rauschen"
+    amplitude: 1.4
+    frequenz_pro_tag: 40
+    stoerungen:
+      - {art: weiss, staerke: 0.2}
+    lauf_stunden: 8
+    config: {abfrage_sekunden: 120}
+
+  F2_grosse_amplitude:
+    beschreibung: "Wie F1, aber Amplitude 2.5 EUR (Spitze-Tal 5 % > 3-%-Ausbruchsgrenze)"
+    amplitude: 2.5
+    frequenz_pro_tag: 40
+    stoerungen:
+      - {art: weiss, staerke: 0.2}
+    lauf_stunden: 4
+    config: {abfrage_sekunden: 120}
+
+  F3_random_walk:
+    beschreibung: "Wie F1 + Random Walk 1 EUR/Tag: kein fester Preis mehr"
+    amplitude: 1.4
+    frequenz_pro_tag: 40
+    stoerungen:
+      - {art: weiss, staerke: 0.2}
+      - {art: random_walk, staerke: 1.0}
+    lauf_stunden: 4
+    config: {abfrage_sekunden: 120}
+
+  F4_trend:
+    beschreibung: "Wie F1 + Abwaertstrend -5 EUR/Tag ab Laufbeginn"
+    amplitude: 1.4
+    frequenz_pro_tag: 40
+    stoerungen:
+      - {art: weiss, staerke: 0.2}
+      - {art: trend, staerke: -5.0, ab_stunden: 0}
+    lauf_stunden: 8
+    config: {abfrage_sekunden: 120}
+
+  F5_sprung:
+    beschreibung: "Wie F1 + Kurssturz -6 EUR nach 3 h, danach weiter Schwingung"
+    amplitude: 1.4
+    frequenz_pro_tag: 40
+    stoerungen:
+      - {art: weiss, staerke: 0.2}
+      - {art: sprung, staerke: -6.0, ab_stunden: 3}
+    lauf_stunden: 6
+    config: {abfrage_sekunden: 120}
+
+  # ---- langsame Schwingung: Periode 12 h (f = 2/Tag), Zyklus 600 s ----
+  # 72 Abfragen je Schwingung - fuer eine 12-h-Schwingung geht dabei nichts verloren.
+  L1_weiss:
+    beschreibung: "Langsame Schwingung + leichtes Rauschen (typische Tagesschwingung)"
+    amplitude: 1.4
+    frequenz_pro_tag: 2
+    stoerungen:
+      - {art: weiss, staerke: 0.2}
+    lauf_stunden: 24
+    config: {abfrage_sekunden: 600}
+
+  L2_starkes_rauschen:
+    beschreibung: "Langsame Schwingung + starkes Rauschen"
+    amplitude: 1.4
+    frequenz_pro_tag: 2
+    stoerungen:
+      - {art: weiss, staerke: 1.0}
+    lauf_stunden: 24
+    config: {abfrage_sekunden: 600}

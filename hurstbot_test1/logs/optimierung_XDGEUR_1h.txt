@@ -1,0 +1,22 @@
+X-Optimierung fuer XDGEUR
+========================================
+Gewaehltes X (nach Glaettung):      4.2024 %
+Gebuehren-Breakeven (untere Grenze): 0.6700 %
+Mittlerer Out-of-Sample-Score:       0.0183 EUR
+Mittlere Round-Trips je Fenster:     0.00
+Mittlere Amplitude je Round-Trip:    0.0000 %
+Anzahl ausgewerteter Fenster:         4
+
+!! WARNUNG: In keinem Testfenster kam ein Round-Trip zustande.
+!! Dieses X ist damit NICHT out-of-sample validiert. Ursache ist meist zu
+!! kurze Historie: Kraken liefert max. 720 Kerzen pro Abfrage, und das
+!! Testfenster betraegt hier nur 61 Kerzen.
+!! Abhilfe: Bot laenger laufen lassen (der OHLC-Cache waechst mit), ein
+!! groesseres Kerzenintervall waehlen oder walk_forward_fenster_anzahl senken.
+!! Der Bot handelt mit einem solchen X nicht.
+
+Pro Fenster gewaehltes X (Training) vs. Out-of-Sample-Ergebnis:
+  Fenster 0: X=5.0000 % | Netto +0.00 EUR | Drawdown 0.00 % | Round-Trips 0
+  Fenster 1: X=3.8605 % | Netto +0.00 EUR | Drawdown 0.00 % | Round-Trips 0
+  Fenster 2: X=2.2653 % | Netto +0.00 EUR | Drawdown 0.00 % | Round-Trips 0
+  Fenster 3: X=4.5442 % | Netto +0.46 EUR | Drawdown 0.37 % | Round-Trips 0

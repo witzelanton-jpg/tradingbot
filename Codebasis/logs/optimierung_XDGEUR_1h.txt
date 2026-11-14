@@ -1,0 +1,23 @@
+X-Optimierung fuer XDGEUR
+========================================
+Gewaehltes X (nach Glaettung):      2.2653 %
+Gebuehren-Breakeven (untere Grenze): 0.6700 %
+Mittlerer Out-of-Sample-Score:       -0.4627 EUR
+Mittlere Round-Trips je Fenster:     0.20
+Mittlere Amplitude je Round-Trip:    0.1643 %
+Anzahl ausgewerteter Fenster:         5
+
+!! WARNUNG: Das Out-of-Sample-Ergebnis ist im Mittel NEGATIV
+!! (-0.4627 EUR). Dieses X war auf den Testdaten
+!! verlustbringend - es ist nur das am wenigsten schlechte aus dem Suchbereich.
+!! Der Bot uebernimmt es deshalb NICHT und behaelt sein bisheriges X.
+!! Das ist ein Hinweis darauf, dass dieses Paar in diesem Zeitraum nicht
+!! oszilliert hat - die Strategie passt hier derzeit nicht.
+!! Der Bot handelt mit einem solchen X nicht.
+
+Pro Fenster gewaehltes X (Training) vs. Out-of-Sample-Ergebnis:
+  Fenster 0: X=3.6326 % | Netto -0.45 EUR | Drawdown 0.55 % | Round-Trips 0
+  Fenster 1: X=2.2653 % | Netto -0.22 EUR | Drawdown 0.76 % | Round-Trips 0
+  Fenster 2: X=1.3537 % | Netto +0.00 EUR | Drawdown 0.00 % | Round-Trips 0
+  Fenster 3: X=4.7721 % | Netto -0.11 EUR | Drawdown 0.26 % | Round-Trips 0
+  Fenster 4: X=0.6700 % | Netto +0.11 EUR | Drawdown 0.06 % | Round-Trips 1

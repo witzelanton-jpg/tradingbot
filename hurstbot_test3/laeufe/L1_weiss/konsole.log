@@ -1,0 +1,589 @@
+13:04:49 [INFO] hurstbot_test3.sim_run: Paper-Modus: virtuelle Ausfuehrung, keine echten Orders. Kurse: synthetisch (100 + 1.4*sin(2*pi*2/Tag*t) + weisses Rauschen sigma=0.2 EUR)
+13:04:49 [INFO] hurstbot.scanner: Handelsregeln fuer 1 Paare geladen: SINUSEUR
+13:04:49 [INFO] hurstbot.runner: Kein gueltiger Zustand gefunden - starte frisch mit 100.00 EUR
+13:04:49 [INFO] hurstbot_test3.sim_run: Bot gestartet (simulierte Uhr ab 2026-11-05 00:00:00+00:00, Schritt 0 days 00:10:00, bis 2026-11-06 00:00:00+00:00)
+13:05:23 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.014    0.489     0.407     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.489, CI_oben=0.536)
+13:06:00 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.028    0.478     0.407     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.478, CI_oben=0.537)
+13:06:28 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.007    0.494     0.407     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.494, CI_oben=0.533)
+13:07:07 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.009    0.493     0.407     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.493, CI_oben=0.536)
+13:07:30 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.014    0.488     0.407     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.488, CI_oben=0.534)
+13:08:01 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.013    0.489     0.407     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.489, CI_oben=0.535)
+13:08:27 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.000    0.500     0.406     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.500, CI_oben=0.536)
+13:08:56 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.012    0.490     0.406     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.490, CI_oben=0.537)
+13:09:25 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.016    0.486     0.406     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.486, CI_oben=0.532)
+13:10:04 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.010    0.491     0.406     0.74   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.491, CI_oben=0.537)
+13:10:31 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.023    0.480     0.406     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.480, CI_oben=0.537)
+13:11:07 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.020    0.483     0.406     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.483, CI_oben=0.534)
+13:11:35 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.003    0.497     0.405     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.497, CI_oben=0.537)
+13:12:10 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.006    0.495     0.405     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.495, CI_oben=0.537)
+13:12:36 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.028    0.477     0.405     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.477, CI_oben=0.538)
+13:13:12 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.013    0.489     0.405     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.489, CI_oben=0.534)
+13:13:38 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.018    0.484     0.405     0.74   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.484, CI_oben=0.533)
+13:14:11 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.023    0.480     0.405     0.74   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.480, CI_oben=0.538)
+13:14:37 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.031    0.474     0.404     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.474, CI_oben=0.533)
+13:15:11 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.024    0.480     0.404     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.480, CI_oben=0.535)
+### Fortschritt L1_weiss: Zyklus 20, Sim-Zeit 2026-11-05 03:10:00+00:00, 622 s gelaufen
+13:44:01 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.040    0.467     0.404     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.467, CI_oben=0.536)
+08:33:52 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.033    0.473     0.404     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.473, CI_oben=0.538)
+08:34:28 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.022    0.482     0.404     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.482, CI_oben=0.535)
+08:36:05 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.029    0.476     0.404     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.476, CI_oben=0.541)
+08:37:52 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.048    0.461     0.403     0.74   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.461, CI_oben=0.535)
+08:39:33 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.051    0.458     0.403     0.74   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.458, CI_oben=0.537)
+08:41:13 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.040    0.468     0.403     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.468, CI_oben=0.540)
+08:42:56 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.063    0.451     0.403     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.451, CI_oben=0.539)
+08:44:30 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.061    0.452     0.403     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.452, CI_oben=0.539)
+08:46:15 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.054    0.458     0.403     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.458, CI_oben=0.538)
+08:47:50 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.053    0.459     0.407     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.459, CI_oben=0.536)
+08:49:31 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.063    0.452     0.407     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.452, CI_oben=0.532)
+08:51:16 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.050    0.461     0.407     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.461, CI_oben=0.537)
+08:52:59 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.058    0.455     0.407     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.455, CI_oben=0.533)
+08:54:28 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.066    0.451     0.407     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.451, CI_oben=0.538)
+08:55:55 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.081    0.440     0.407     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.440, CI_oben=0.536)
+08:57:22 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.057    0.458     0.410     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.458, CI_oben=0.535)
+08:58:50 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.074    0.446     0.410     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.446, CI_oben=0.537)
+09:10:07 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.064    0.452     0.410     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.452, CI_oben=0.535)
+09:11:36 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.040    0.469     0.410     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.469, CI_oben=0.539)
+### Fortschritt L1_weiss: Zyklus 40, Sim-Zeit 2026-11-05 06:30:00+00:00, 72411 s gelaufen
+09:13:03 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.052    0.460     0.410     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.460, CI_oben=0.541)
+09:14:30 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.053    0.459     0.410     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.459, CI_oben=0.537)
+09:15:55 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.055    0.458     0.408     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.458, CI_oben=0.535)
+09:17:20 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.045    0.465     0.408     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.465, CI_oben=0.537)
+09:18:44 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.054    0.459     0.408     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.459, CI_oben=0.532)
+09:20:09 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.054    0.458     0.408     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.458, CI_oben=0.536)
+09:21:34 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.034    0.473     0.408     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.473, CI_oben=0.537)
+09:23:08 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.044    0.465     0.408     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.465, CI_oben=0.539)
+09:24:40 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.047    0.464     0.407     0.79   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.464, CI_oben=0.534)
+09:26:13 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.027    0.478     0.407     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.478, CI_oben=0.535)
+09:27:44 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.044    0.465     0.407     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.465, CI_oben=0.540)
+09:29:13 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.031    0.475     0.407     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.475, CI_oben=0.535)
+09:30:44 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.047    0.463     0.407     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.463, CI_oben=0.537)
+12:42:47 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.037    0.471     0.407     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.471, CI_oben=0.539)
+12:44:19 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.050    0.461     0.406     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.461, CI_oben=0.537)
+12:44:55 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.051    0.461     0.406     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.461, CI_oben=0.536)
+12:45:22 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.036    0.471     0.406     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.471, CI_oben=0.539)
+12:45:47 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.055    0.459     0.406     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.459, CI_oben=0.535)
+12:46:12 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.062    0.454     0.406     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.454, CI_oben=0.535)
+12:46:35 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.052    0.460     0.406     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.460, CI_oben=0.534)
+### Fortschritt L1_weiss: Zyklus 60, Sim-Zeit 2026-11-05 09:50:00+00:00, 85310 s gelaufen
+12:46:58 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.066    0.451     0.408     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.451, CI_oben=0.535)
+12:47:21 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.061    0.454     0.408     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.454, CI_oben=0.534)
+12:47:44 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.070    0.448     0.408     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.448, CI_oben=0.537)
+12:48:25 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.053    0.460     0.408     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.460, CI_oben=0.538)
+12:48:56 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.061    0.455     0.408     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.455, CI_oben=0.538)
+12:49:17 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.066    0.452     0.408     0.79   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.452, CI_oben=0.535)
+12:49:41 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.050    0.463     0.409     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.463, CI_oben=0.538)
+12:50:01 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.089    0.437     0.409     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.437, CI_oben=0.537)
+12:50:22 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.086    0.440     0.409     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.440, CI_oben=0.536)
+12:50:44 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.077    0.444     0.409     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.444, CI_oben=0.540)
+12:51:05 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.067    0.451     0.409     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.451, CI_oben=0.537)
+12:51:26 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.073    0.448     0.409     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.448, CI_oben=0.534)
+12:51:50 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.069    0.451     0.411     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.451, CI_oben=0.540)
+12:52:12 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.072    0.447     0.411     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.447, CI_oben=0.538)
+12:52:32 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.084    0.441     0.411     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.441, CI_oben=0.533)
+12:52:52 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.086    0.439     0.411     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.439, CI_oben=0.537)
+12:53:12 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.077    0.444     0.411     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.444, CI_oben=0.541)
+12:53:33 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.078    0.444     0.411     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.444, CI_oben=0.538)
+12:53:53 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.081    0.442     0.406     0.80   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.442, CI_oben=0.541)
+12:54:13 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.076    0.445     0.406     0.79   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.445, CI_oben=0.540)
+### Fortschritt L1_weiss: Zyklus 80, Sim-Zeit 2026-11-05 13:10:00+00:00, 85768 s gelaufen
+12:54:33 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.064    0.453     0.406     0.79   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.453, CI_oben=0.536)
+12:54:53 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.050    0.461     0.406     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.461, CI_oben=0.538)
+12:55:14 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.060    0.455     0.406     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.455, CI_oben=0.534)
+12:55:34 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.039    0.469     0.406     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.469, CI_oben=0.535)
+12:55:55 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.062    0.454     0.408     0.79   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.454, CI_oben=0.541)
+12:56:15 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.044    0.466     0.408     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.466, CI_oben=0.539)
+12:56:36 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.048    0.463     0.408     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.463, CI_oben=0.540)
+12:56:58 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.065    0.452     0.408     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.452, CI_oben=0.534)
+12:57:20 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.061    0.454     0.408     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.454, CI_oben=0.541)
+12:57:43 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.054    0.460     0.408     0.80   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.460, CI_oben=0.536)
+12:58:05 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.045    0.466     0.410     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.466, CI_oben=0.535)
+12:58:27 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.059    0.456     0.410     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.456, CI_oben=0.537)
+12:58:49 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.067    0.451     0.410     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.451, CI_oben=0.538)
+12:59:11 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.090    0.436     0.410     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.436, CI_oben=0.537)
+12:59:32 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.085    0.440     0.410     0.79   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.440, CI_oben=0.539)
+12:59:56 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.074    0.446     0.410     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.446, CI_oben=0.540)
+13:00:19 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.072    0.449     0.411     0.79   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.449, CI_oben=0.538)
+13:00:45 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.097    0.433     0.411     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.433, CI_oben=0.537)
+13:01:10 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.084    0.440     0.411     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.440, CI_oben=0.541)
+13:01:32 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.083    0.440     0.411     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.440, CI_oben=0.535)
+### Fortschritt L1_weiss: Zyklus 100, Sim-Zeit 2026-11-05 16:30:00+00:00, 86206 s gelaufen
+13:01:54 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.066    0.452     0.411     0.79   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.452, CI_oben=0.539)
+13:02:15 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.076    0.445     0.411     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.445, CI_oben=0.538)
+13:02:36 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.088    0.438     0.409     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.438, CI_oben=0.539)
+13:02:58 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.090    0.436     0.409     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.436, CI_oben=0.538)
+13:03:20 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.095    0.433     0.409     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.433, CI_oben=0.537)
+13:03:42 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.078    0.443     0.409     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.443, CI_oben=0.534)
+13:04:02 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.058    0.457     0.409     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.457, CI_oben=0.539)
+13:04:23 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.064    0.452     0.409     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.452, CI_oben=0.537)
+13:04:44 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.067    0.449     0.407     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.449, CI_oben=0.537)
+13:05:06 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.058    0.456     0.407     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.456, CI_oben=0.540)
+13:05:34 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.061    0.453     0.407     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.453, CI_oben=0.538)
+13:06:01 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.055    0.457     0.407     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.457, CI_oben=0.537)
+13:06:28 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.062    0.453     0.407     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.453, CI_oben=0.540)
+13:06:54 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.058    0.454     0.407     0.74   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.454, CI_oben=0.538)
+13:07:20 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.050    0.459     0.404     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.459, CI_oben=0.540)
+13:07:47 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.049    0.461     0.404     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.461, CI_oben=0.540)
+13:08:13 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.036    0.471     0.404     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.471, CI_oben=0.539)
+13:08:40 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.043    0.466     0.404     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.466, CI_oben=0.540)
+13:09:06 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.036    0.470     0.404     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.470, CI_oben=0.544)
+13:09:32 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.037    0.470     0.404     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.470, CI_oben=0.539)
+### Fortschritt L1_weiss: Zyklus 120, Sim-Zeit 2026-11-05 19:50:00+00:00, 86687 s gelaufen
+13:09:59 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.024    0.479     0.408     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.479, CI_oben=0.537)
+13:10:25 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.031    0.474     0.408     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.474, CI_oben=0.540)
+13:10:51 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.032    0.473     0.408     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.473, CI_oben=0.541)
+13:11:18 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.047    0.462     0.408     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.462, CI_oben=0.539)
+13:11:44 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.035    0.470     0.408     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.470, CI_oben=0.537)
+13:12:10 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.033    0.472     0.408     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.472, CI_oben=0.540)
+13:12:36 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.030    0.474     0.404     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.474, CI_oben=0.540)
+13:13:03 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.050    0.460     0.404     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.460, CI_oben=0.539)
+13:13:30 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.057    0.454     0.404     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.454, CI_oben=0.537)
+13:13:50 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.059    0.454     0.404     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.454, CI_oben=0.538)
+13:14:07 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.049    0.461     0.404     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.461, CI_oben=0.538)
+13:14:25 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.047    0.463     0.404     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.463, CI_oben=0.538)
+13:14:43 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.057    0.457     0.408     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.457, CI_oben=0.535)
+13:15:26 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.065    0.451     0.408     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.451, CI_oben=0.537)
+13:16:06 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.051    0.460     0.408     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.460, CI_oben=0.539)
+13:16:38 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.059    0.456     0.408     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.456, CI_oben=0.535)
+13:17:06 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.060    0.455     0.408     0.78   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.455, CI_oben=0.535)
+13:17:34 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.068    0.449     0.408     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.449, CI_oben=0.537)
+13:18:02 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.073    0.445     0.408     0.75   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.445, CI_oben=0.540)
+13:18:30 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.072    0.447     0.408     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.447, CI_oben=0.539)
+### Fortschritt L1_weiss: Zyklus 140, Sim-Zeit 2026-11-05 23:10:00+00:00, 87224 s gelaufen
+13:18:59 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.062    0.453     0.408     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.453, CI_oben=0.539)
+13:19:26 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.054    0.459     0.408     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.459, CI_oben=0.537)
+13:19:54 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.059    0.456     0.408     0.77   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.456, CI_oben=0.541)
+13:20:22 [INFO] hurstbot.runner: Aktuelles Ranking:
+Paar           Score   H kurz  H mittel  Konfid.   Gate  Grund
+----------------------------------------------------------------------------------------------------
+SINUSEUR       0.061    0.454     0.408     0.76   NEIN  H bzw. obere Konfidenzgrenze >= 0.5 (H=0.454, CI_oben=0.537)
+13:20:22 [INFO] hurstbot.runner: Zustand gespeichert unter state\bot_zustand.json
+13:20:22 [INFO] hurstbot_test3.sim_run: Lauf beendet: {'zyklen': 144, 'sim_von': '2026-11-05T00:00:00+00:00', 'sim_bis': '2026-11-06T00:00:00+00:00', 'schritt_sekunden': 600, 'rechenzeit_s': 87337.1, 'api_anfragen': {'AssetPairs': 1, 'OHLC': 432, 'Ticker': 0}, 'global_zustand': 'HANDELT'}

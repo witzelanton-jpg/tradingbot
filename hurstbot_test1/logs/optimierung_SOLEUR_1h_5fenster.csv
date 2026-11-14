@@ -1,0 +1,6 @@
+fenster,train_zeilen,test_zeilen,bestes_x_prozent,test_netto_gewinn_eur,test_max_drawdown_prozent,test_roundtrips,test_mittlere_amplitude_prozent,test_score
+0,113,49,1.0663,0.4684,1.1991,3,1.2627,-0.7522
+1,113,49,0.67,-1.0826,1.5735,3,0.7588,-2.6721
+2,113,49,0.67,0.0834,0.0977,1,0.6775,-0.0144
+3,113,49,1.198,-0.2558,0.6484,0,0.0,-0.9282
+4,115,50,4.7721,-0.1112,0.8428,0,0.0,-0.97
